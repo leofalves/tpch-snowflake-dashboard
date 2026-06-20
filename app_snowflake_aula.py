@@ -2,6 +2,7 @@
 APP STREAMLIT + SNOWFLAKE - AULA UNICAMP
 Demonstração de Integração com Data Warehouse
 Prof. Francisco Fambrini
+Aluno: Leo Fabiano Alves
 """
 
 import streamlit as st
@@ -506,6 +507,7 @@ if conectado:
         **Professor:** Francisco Fambrini
         **Instituição:** UNICAMP
         **Curso:** Ciência de Dados
+        **Aluno:** Leo Fabiano Alves
         """)
 
 # ============================================================================
@@ -518,5 +520,6 @@ st.markdown("""
     <p>🎓 <b>Projeto Demonstrativo - UNICAMP</b></p>
     <p>Streamlit + Snowflake Data Warehouse</p>
     <p>Prof. Francisco Fambrini</p>
+    <p>Aluno: Leo Fabiano Alves</p>
 </div>
 """, unsafe_allow_html=True)
